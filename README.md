@@ -1,2 +1,2 @@
 # AnalyticsMeatball
-Meatball chart comparing analytics reports
+This meatball chart compares the analytics reports.
