@@ -1,0 +1,107 @@
+    body {
+        margin: auto;
+        width: 75em;
+    }
+
+    .scrollable {
+        margin-bottom: 1em;
+        max-height: 50em;
+        overflow: auto;
+    }
+
+    .scrollable table {
+        border-spacing: 0;
+        margin-bottom: 0;
+        min-width: 100%;
+        width: max-content;
+    }
+
+
+    .scrollable th, .scrollable td {
+        border-bottom: 1px solid black;
+        max-width: 8em;
+        padding: 0.25em 0.5em;
+        vertical-align: top;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .scrollable th {
+        background: #dee0e2;
+        position: sticky;
+        text-align: center;
+        top: 0;
+    }
+
+    td:first-child, th:first-child {
+        position:sticky;
+        left:0;
+        z-index:1;
+        /* background-color:rgb(241, 107, 197); */
+      }
+      td:nth-child(2),th:nth-child(2)  { 
+      position:sticky;
+        left:128px; 
+        background-color:#dee0e2;
+        }
+
+    .scrollable th:first-of-type {
+        z-index: 2;
+    }
+
+    .scrollable td:first-of-type {
+        background:#dee0e2;
+        z-index: 1;
+    }
+    th:first-child , th:nth-child(2) {
+        z-index:3
+        }
+
+
+        /* 
+    .scrollable th:first-of-type, .scrollable td:first-of-type {
+        left: 0;
+        position: sticky;
+    } */
+
+/* SECOND TABLE */
+
+/* .tableFixHead {
+    overflow: auto;
+    height: 700px;
+    width:75em;
+  }
+  
+  .tableFixHead table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .tableFixHead th,
+  .tableFixHead td {
+    padding: 30px 30px;
+  } */
+  
+  
+  /* td:first-child, th:first-child {
+    position:sticky;
+    left:0;
+    z-index:1;
+    background-color:rgb(241, 107, 197);
+  } */
+  /* td:nth-child(2),th:nth-child(2)  { 
+  position:sticky;
+    left:150px;
+    z-index:1;
+    background-color:rgb(90, 168, 240);
+    } */
+
+  /* .tableFixHead th {
+    position: sticky;
+    top: 0;
+    background: rgb(95, 238, 67);
+    z-index:2
+  } */
+  /* th:first-child , th:nth-child(2) {
+    z-index:3
+    } */
