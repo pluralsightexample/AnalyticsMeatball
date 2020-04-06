@@ -18,10 +18,11 @@
 
 
     .scrollable th, .scrollable td {
-        border-bottom: 1px solid black;
+        border-bottom: 0px solid black;
         /* border-left: 1px solid black; */
-        max-width: 8em;
-        padding: 0.25em 0.5em;
+        max-width: 5em;
+        min-width: 5em;
+        /* padding: 0.25em 0.25em; */
         vertical-align: top;
         text-align: center;
         vertical-align: middle;
@@ -42,7 +43,7 @@
       }
       td:nth-child(2),th:nth-child(2)  { 
       position:sticky;
-        left:128px; 
+        left:79px; 
         background-color:#dee0e2;
         }
 
@@ -57,13 +58,17 @@
     th:first-child , th:nth-child(2) {
         z-index:3
         }
+
+    .scrollable tr:nth-child(odd){
+        background: rgb(222, 241, 253);
+    }
 #check{
-    color: green;
+    color: black;
     font-weight: 600;
     font-size: 18px;
 }
 #x{
-    color:red;
+    color:rgb(222, 241, 253);
     font-weight: 600;
     font-size: 18px;
 }
