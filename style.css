@@ -42,9 +42,11 @@
 
 #ColOdd{
     background:rgb(222, 241, 253);
+    font-weight: 600;
 }    
 #ColEven{
     background:white;
+    font-weight: 600;
 }
 
       /* This needs a background */
