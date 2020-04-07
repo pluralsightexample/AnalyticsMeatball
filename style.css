@@ -4,7 +4,7 @@
     }
 
     .scrollable {
-        margin-bottom: 1em;
+        margin-bottom: 0em;
         max-height: 50em;
         overflow: auto;
     }
@@ -15,33 +15,35 @@
         min-width: 100%;
         width: max-content;
     }
+    /* #c8ed2 */
 
 
     .scrollable th, .scrollable td {
-        border-bottom: 0px solid black;
+        border-bottom: 1px solid lightgrey;
         max-width: 5em;
         min-width: 5em;
-        /* padding: -0.90em -0.90em; */
         vertical-align: top;
         text-align: center;
         vertical-align: middle;
     }
 
     .scrollable th {
-        background: #dee0e2;
+        background: #2974ab;
         position: sticky;
         text-align: center;
         top: 0;
+        color:white;
     }
     
     td:first-child, th:first-child {
         position:sticky;
         left:0;
         z-index:1;
+        
       }
 
 #ColOdd{
-    background:rgb(222, 241, 253);
+    background:#d9f1ff;
     font-weight: 600;
 }    
 #ColEven{
@@ -60,31 +62,38 @@
 
     .scrollable th:first-of-type {
         z-index: 3;
+       
     }
 
     /* This needs a background */
     .scrollable td:first-of-type {
         z-index:1;
+       
     }
     th:first-child , th:nth-child(2) {
         z-index:3;
+       
         }
 
     .scrollable tr:nth-child(odd){
-        background: rgb(222, 241, 253);
+        background:#d9f1ff;
+        /* background: #2974ab; */
+      
+
     }
     .scrollable tr:nth-child(even){
         background: white;
+        
     }
+    
 #check{
     color: black;
     font-size: 18px;
 }
 #x{
-    color:rgb(222, 241, 253);
+    color:#d9f1ff;
     font-size: 18px;
 }
-
 p{
     margin-bottom: 5px;
     margin-top: 5px;
