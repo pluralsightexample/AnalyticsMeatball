@@ -5,7 +5,7 @@
 
     .scrollable {
         margin-bottom: 1em;
-        max-height: 50em;
+        max-height: 40em;
         overflow: auto;
     }
 
@@ -19,10 +19,9 @@
 
     .scrollable th, .scrollable td {
         border-bottom: 0px solid black;
-        /* border-left: 1px solid black; */
         max-width: 5em;
         min-width: 5em;
-        /* padding: 0.25em 0.25em; */
+        /* padding: -0.90em -0.90em; */
         vertical-align: top;
         text-align: center;
         vertical-align: middle;
@@ -34,41 +33,52 @@
         text-align: center;
         top: 0;
     }
-
+    
     td:first-child, th:first-child {
         position:sticky;
         left:0;
         z-index:1;
-        /* background-color:rgb(241, 107, 197); */
       }
+
+#ColOdd{
+    background:rgb(222, 241, 253);
+}    
+#ColEven{
+    background:white;
+}
+
+      /* This needs a background */
       td:nth-child(2),th:nth-child(2)  { 
       position:sticky;
-        left:79px; 
-        background-color:#dee0e2;
+        left:80px; 
+        z-index:1;
         }
 
+
+
     .scrollable th:first-of-type {
-        z-index: 2;
+        z-index: 3;
     }
 
+    /* This needs a background */
     .scrollable td:first-of-type {
-        background:#dee0e2;
-        z-index: 1;
+        z-index:1;
     }
     th:first-child , th:nth-child(2) {
-        z-index:3
+        z-index:3;
         }
 
     .scrollable tr:nth-child(odd){
         background: rgb(222, 241, 253);
     }
+    .scrollable tr:nth-child(even){
+        background: white;
+    }
 #check{
     color: black;
-    font-weight: 600;
     font-size: 18px;
 }
 #x{
     color:rgb(222, 241, 253);
-    font-weight: 600;
     font-size: 18px;
 }
