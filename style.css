@@ -84,3 +84,8 @@
     color:rgb(222, 241, 253);
     font-size: 18px;
 }
+
+p{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
