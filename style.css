@@ -5,7 +5,7 @@
 
     .scrollable {
         margin-bottom: 1em;
-        max-height: 40em;
+        max-height: 50em;
         overflow: auto;
     }
 
