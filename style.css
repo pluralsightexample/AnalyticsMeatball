@@ -90,8 +90,12 @@
     color: black;
     font-size: 18px;
 }
-#x{
+#blueX{
     color:#d9f1ff;
+    font-size: 18px;
+}
+#whiteX{
+    color:white;
     font-size: 18px;
 }
 p{
