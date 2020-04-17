@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Analytics Meatball for KO</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <script src="main.js"></script> -->
+    <!--<script src="main.js"></script>-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
@@ -14,1918 +14,3611 @@
 </head>
 
 <body>
-    <p></p>
     <div class="scrollable">
         <table>
             <thead>
                 <tr>
                     <th>Analytics Report</th>
                     <th>Report type</th>
+
                     <th>Account Name</th>
-                    <th>Avg. View Time/ User</th>
-                    <th>Comple-tion %</th>
-                    <th>Date</th>
-                    <th>Email</th>
                     <th>First Name</th>
-                    <th>Is On Account</th>
-                    <th>Last Activity</th>
                     <th>Last Name</th>
-                    <th>Last View Date</th>
-                    <th>Month</th>
-                    <th>Note</th>
-                    <th>Total Licenes</th>
-                    <th>Start Date</th>
-                    <th>Subjects</th>
+                    <th>Email</th>
+                    <th>Last Activity</th>
                     <th>Team Name</th>
                     <th>Total Hours</th>
-                    <th>Total Users</th>
                     <th>Unique Courses</th>
                     <th>Unique Users</th>
-                    <th>View Date</th>
+                    <th>Subjects</th>
                     <th>View Time</th>
+                    <th>Month</th>
                     <th>Year</th>
+                    <th>Note</th>
+                    <th>Start Date</th>
                     <th>Skill</th>
-                    <th>Skill Level</th>
-                    <th>Avg Skill IQ/ Rating</th>
-                    <!-- <th>Avg Skill IQ</th> -->
-                    <th>20th Percentile</th>
-                    <th>80th Percentile</th>
-                    <th>Assessments Taken</th>
-                    <th>Content Type</th>
-                    <th>Content Id</th>
-                    <th>Content Name</th>
-                    <th>Content Duration</th>
+                    <th>Avg. View Time/ User</th>
+                    <th>Date</th>
+                    <th>Total Licences</th>
+                    <th>Total Users</th>
+                    <th>Completion Percentage</th>
+                    <th>View Date</th>
+                    <th>Last View Date</th>
+                    <th>Channel Completion</th>
+                    <th>Content Completion</th>
+                    <th>Permission</th>
+                    <th>Link</td>
+                    <th>Link URL</th>
                     <th>Channels</th>
                     <th>Objective</th>
                     <th>Owner</th>
-                    <th>Duration (hrs)</th>
-                    <th>Duration (sec)</th>
                     <th>Members</th>
-                    <th>Avg Completion</th>
+                    <th>Average Completion</th>
+                    <th>Duration (hours)</th>
+                    <th>Duration (seconds)</th>
+                    <th>Content Type</th>
+                    <th>Content Name</th>
+                    <th>Content Duration</th>
+                    <th>Content ID</th>
                     <th>Roles</th>
                     <th>Created by</th>
                     <th>Active Users (Started Roles)</th>
                     <th>Assigned Users</th>
-                    <th>Role IQ Achieved</th>
+                    <th>Role IQs Achieved</th>
+                    <th>Content Interactions</th>
+                    <th>Engaged Users</th>
+                    <th>Engaged Users Assessed</th>
+                    <th>Engaged Users Not Assessed</th>
+                    <th>Users at ___ Level</th>
+                    <th>Assessments Taken</th>
+                    <th>20th Percentile</th>
+                    <th>80th Percentile</th>
+                    <th>Avg Skill IQ/ Rating</th>
+                    <th>Skill Level</th>
+                    <th>Assessment Run #</th>
+                    <th>Assessment Date</th>
+                    <th>Questions Answered</th>
+                    <th>Is On Account</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td id="ColOdd">
-                        <!-- Analytics Report -->
-                        <p>Channels</p>
+                        <!--Basic Channels Report-->
+                        <p>Channels: Basic</p>
                     </td>
                     <td id="ColOdd">
-                        <!--Channels/ Report Type -->
+                        <!--Channels, Basic/Report Type-->
                         <p>Web</p>
                         <p>CSV</p>
                     </td>
                     <td>
-                        <!-- Channels/Account name -->
-                        <p id="check">✓</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Account Name-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Channels/Avg. View Time/User -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/First Name-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Completion Percentage -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Last Name-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Email-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Channels/Email -->
-                        <p id="blueX">x</p>
-                        <p id="check">✓</p>
+                        <!--Channels, Basic/Last Activity-->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Channels/First Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Team Name-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Is On Account-->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Total Hours-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Last Activity -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Channels, Basic/Unique Courses-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Last Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Unique Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Last View Date -->
-                        <p id="check">✓</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Subjects-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Month -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/View Time-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Note -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Month-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Total Licenses -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Year-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Start Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Note-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Subjects -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Start Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Team Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Skill-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Total Hours -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Avg. View Time/User-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Total Users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Unique Courses -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Total Licenses-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Unique Users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Total Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/View Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Completion Percentage-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/View Time -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/View Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Year -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Last View Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Skill -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Channel Completion-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Skill Level -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Content Completion-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Avg Skill IQ/Rating -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-
-                    <td>
-                        <!--Channels/20th Percentile -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Permission-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/80th Percentile -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Link-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Assessments Taken -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Link URL-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Channels/Content Type -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Channels-->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Channels/Content ID -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Objective-->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Channels/Content Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Owner-->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Channels/Content Duration -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <!-- Channels/Channels -->
-                    <td>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Channels, Basic/Members-->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Channels/Objective -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Channels, Basic/Avg Completion-->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Channels/Owner -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Channels, Basic/Duration (hours)-->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Channels/Duration (hours) -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Channels, Basic/Duration (sec)-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Channels/Duration (sec) -->
-                        <p id="blueX">x</p>
-                        <p id="check">✓</p>
+                        <!--Channels, Basic/Content Type-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Channels/Members -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Channels, Basic/Content Name-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Channels/Avg Completion -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Channels, Basic/Content Duration-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Channels/ Roles -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Content ID-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Channels/Created by -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/ Roles-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Channels/Active users (Started Roles) -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Created by-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Channels/Assigned users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Active users (Started Roles)-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Channels/Role IQs acheieved-->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Channels, Basic/Assigned users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Role IQs acheieved-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Content Interactions-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Engaged Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Users at ____ Level-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Assessments Taken-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/20th Percentile-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/80th Percentile-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Avg Skill IQ/Rating-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Skill Level-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Assessment Run #-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Assessment Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Basic/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                 </tr>
 
                 <tr>
                     <td id="ColEven">
-                        <p>Content Analytics</p>
+                        <!--Advanced Channels Report-->
+                        <p>Channels: Advanced</p>
                     </td>
                     <td id="ColEven">
+                        <!--Channels, Advanced/Report Type-->
+                        <p>Web</p>
+                        <p>CSV</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Account Name-->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/First Name-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Last Name-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Email-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Last Activity-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Team Name-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Total Hours-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Unique Courses-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Unique Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Subjects-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/View Time-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Month-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Year-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Note-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Start Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Skill-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Avg. View Time/User-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Total Licenses-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Total Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Completion Percentage-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/View Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Last View Date-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Channel Completion-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Content Completion-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Permission-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Link-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Link URL-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Channels-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Objective-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Owner-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Members-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Avg Completion-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Duration (hours)-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Duration (sec)-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Content Type-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Content Name-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Content Duration-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Content ID-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/ Roles-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Created by-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Active users (Started Roles)-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Assigned users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Role IQs acheieved-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Content Interactions-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Engaged Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Users at ____ Level-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Assessments Taken-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/20th Percentile-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/80th Percentile-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Avg Skill IQ/Rating-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Skill Level-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Assessment Run #-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Assessment Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Channels, Advanced/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td id="ColOdd">
+                        <p>Content</p>
+                    </td>
+                    <td id="ColOdd">
                         <p>Web</p>
                         <p>CSV det.</p>
                         <p>CSV sum.</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Account Name -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Account Name-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Avg. View Time/User -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/First Name-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Completion Percentage -->
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
+                        <!--Content/Last Name-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Email-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Email -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Last Activity-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/First Name -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Team Name-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Is On Account-->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Total Hours-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Last Activity -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Unique Courses-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Last Name -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Unique Users-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Last View Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
+                        <!--Content/Subjects-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Month -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/View Time-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Note -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Month-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Total Licenses -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Year-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Start Date -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Note-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Subjects -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Start Date-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Team Name -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Skill-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Total Hours -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Avg. View Time/User-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Total Users -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Unique Courses -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-
-                    <td>
-                        <!--Content Analytics/Unique Users -->
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Total Licenses-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/View Date -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Total Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/View Time -->
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Completion Percentage-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Year -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/View Date-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Skill -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Last View Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Skill Level -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Channel Completion-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Avg Skill IQ/ Rating -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-
-                    <td>
-                        <!--Content Analytics/20th Percentile -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Content Completion-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/80th Percentile -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Permission-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Assessments Taken -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Link-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Content Type -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Link URL-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Content ID -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Channels-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Content Name -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Objective-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Content Analytics/Content Duration -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <!-- Content Analytics/Channels -->
-                    <td>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Owner-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Objective -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Members-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Owner -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Avg Completion-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Duration (hours) -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Duration (hours)-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Duration (sec) -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Duration (sec)-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Members -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Content Type-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Avg Completion -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Content Name-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/ Roles -->
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Content/Content Duration-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Created by -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Content ID-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Active users (Started Roles) -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Roles-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Assigned users -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Created by-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Content Analytics/Role IQs acheieved-->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Content/Active users (Started Roles)-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Content/Assigned users-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Content/Role IQs acheieved-->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Content/Content Interactions-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Engaged Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Users at ____ Level-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Assessments Taken-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/20th Percentile-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/80th Percentile-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Avg Skill IQ/ Rating-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Skill Level-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Assessment Run #-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Assessment Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Content/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                 </tr>
 
                 <tr>
-                    <td id="ColOdd">
+                    <td id="ColEven">
                         <p>Inventory</p>
                     </td>
-                    <td id="ColOdd">
+                    <td id="ColEven">
                         <p>Web</p>
                         <p>CSV</p>
                     </td>
                     <td>
-                        <!-- Inventory/Account Type -->
-                        <p id="check">✓</p>
-                        <p id="blueX">x</p>
+                        <!--Inventory/Account Name-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Inventory/Avg. View Time/User -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Inventory/First Name-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Inventory/Completion Percentage -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Inventory/Last Name-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Inventory/Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Inventory/Email-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Inventory/Email -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Inventory/Last Activity-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Inventory/First Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Inventory/Team Name-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Total Hours-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Unique Courses-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Unique Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Subjects-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/View Time-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Month-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Year-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Note-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Start Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Skill-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Avg. View Time/User-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Total Licenses-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Total Users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Completion Percentage-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/View Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Last View Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Channel Completion-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Content Completion-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Permission-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Link-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Link URL-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Channels-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Objective-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Owner-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Members-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Avg Completion-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Duration (hours)-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Duration (sec)-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Content Type-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Content Name-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Content Duration-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Content ID-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/ Roles-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Created by-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Active users (Started Roles)-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Assigned users-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Role IQs acheieved-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Content Interactions-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Engaged Users-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Engaged Users Assessed-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Engaged Users Not Assessed-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Users at ____ Level-->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Assessments Taken-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/20th Percentile-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/80th Percentile-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Avg Skill IQ/Rating-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Skill Level-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Assessment Run #-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Assessment Date-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Inventory/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!--Inventory/Is On Account-->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
-                    <td>
-                        <!--Inventory/Last Activity -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Last Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Last View Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Month -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Note -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Total Licenses -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Start Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Subjects -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Team Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Total Hours -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Total Users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Unique Courses -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Unique Users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/View Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/View Time -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Year -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Skill -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Skill Level -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Avg Skill Rating -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
+                </tr>
 
-                    <td>
-                        <!--Inventory/20th Percentile -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/80th Percentile -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Assessments Taken -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Content Type -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Content ID -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Content Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Inventory/Content Duration -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <!-- Inventory/Channels -->
-                    <td>
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Objective -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Owner -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Duration (hours) -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Duration (sec) -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Members -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Avg Completion -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/ Roles -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Created by -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Active users (Started Roles) -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Assigned users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Inventory/Role IQs acheieved-->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                </tr>
-                </tr>
+
                 <tr>
-                    <td id="ColEven">
-                        <p>Roles</p>
+                    <td id="ColOdd">
+                        <p>Roles: Basic</p>
                     </td>
-                    <td id="ColEven">
+                    <td id="ColOdd">
                         <p>Web</p>
                         <p>CSV</p>
                     </td>
                     <td>
-                        <!-- Roles/Account Type -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!-- Roles Basic/Account Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Roles/Avg. View Time/User -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/First Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Completion Percentage -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Last Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Email -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Email -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Last Activity -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/First Name -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Team Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Is On Account-->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Total Hours -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Last Activity -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Unique Courses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Last Name -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Unique Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Last View Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Subjects -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Month -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/View Time -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Note -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Month -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Total Licenses -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                    <td>
+                        <!--Roles Basic/Year -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <!--Roles Basic/Note -->
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Start Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Start Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Subjects -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Skill -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Team Name -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!-- Roles Basic/Avg. View Time/User -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Total Hours -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Unique Courses -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Total Licenses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Unique Users -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Total Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/View Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Completion Percentage -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/View Time -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Year -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Last View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Skill -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Channel Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Avg Skill IQ/Rating -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-
-                    <td>
-                        <!--Roles/20th Percentile -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Content Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/80th Percentile -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Permission -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Assessments Taken -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Link -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Content Type -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Link URL -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <!-- Roles Basic/Channels -->
+                    <td>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Content ID -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!-- Roles Basic/Objective -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Content Name -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!-- Roles Basic/Owner -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Roles/Content Duration -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <!-- Roles/Channels -->
-                    <td>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!-- Roles Basic/Members -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Roles/Objective -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!-- Roles Basic/Avg Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Roles/Owner -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!-- Roles/Duration (hours) -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!-- Roles Basic/Duration (hours) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Channels/Duration (sec) -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Roles//Members -->
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Content Type -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Roles/Avg Completion -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Roles Basic/Content Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Roles/ Roles -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Roles Basic/Content Duration -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Roles/Created by -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Roles Basic/Content ID -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Roles/Active users (Started Roles) -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!-- Roles Basic/ Roles -->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Roles/Assigned users -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!-- Roles Basic/Created by -->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Roles/Role IQs acheieved-->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!-- Roles Basic/Active users (Started Roles) -->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
-                </tr>
+                    <td>
+                        <!-- Roles Basic/Assigned users -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!-- Roles Basic/Role IQs acheieved-->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Content Interations -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Engaged Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Users Assessed -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Assessments Taken -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/20th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/80th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Avg Skill IQ -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Skill Level -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Assessment Run # -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Assessment Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                <tr>
+                    <td id="ColEven">
+                        <p>Roles: Advanced</p>
+                    </td>
+                    <td id="ColEven">
+                        <p>Web</p>
+                        <p>CSV Role Skill Levels</p>
+                        <p>CSV User Skill IQs</p>
+                        <p>CSV User Skill Levels</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Account Name -->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/First Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Last Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Email -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Last Activity -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Team Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Total Hours -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Unique Courses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Unique Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Subjects -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/View Time -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Month -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                    <td>
+                        <!--Roles Advanced/Year -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <!--Roles Advanced/Note -->
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Start Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Skill -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Avg. View Time/User -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Total Licenses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Total Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Completion Percentage -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Last View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Channel Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Content Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Permission -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Link -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Link URL -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <!-- Roles Advanced/Channels -->
+                    <td>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Objective -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Owner -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Members -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Avg Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Duration (hours) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Duration (sec) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Content Type -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Content Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Content Duration -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Content ID -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/ Roles -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Created by -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Active users (Started Roles) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Assigned users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Roles Advanced/Role IQs acheieved-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Content Interations -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Engaged Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Users Assessed -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Assessments Taken -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/20th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/80th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Avg Skill IQ -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Skill Level -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Basic/Assessment Run # -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Assessment Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Roles Advanced/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
                 </tr>
                 <tr>
                     <td id="ColOdd">
-                        <p>Skills</p>
+                        <p>Skills: Basic</p>
                     </td>
                     <td id="ColOdd">
                         <p>Web</p>
                         <p>CSV</p>
                     </td>
                     <td>
-                        <!-- Skills/Account Name -->
-                        <p id="check">✓</p>
-                        <p id="blueX">x</p>
+                        <!-- Skills Basic/Account Name -->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/Avg. View Time/User -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/First Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Completion Percentage -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Last Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Email -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Email -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Last Activity -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/First Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Team Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Is On Account-->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Total Hours -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Last Activity -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Unique Courses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Last Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Last View Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Month -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Note -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Total Licenses -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Start Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Subjects -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Team Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Total Hours -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Total Users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Unique Courses -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Unique Users -->
+                        <!--Skills Basic/Unique Users -->
                         <p>✓</p>
                         <p>✓</p>
                     </td>
                     <td>
-                        <!--Skills/View Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Subjects -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/View Time -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/View Time -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Year -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Skill -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Skills/Skill Level -->
-                        <p id="check">✓</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Skills/Avg Skill IQ/Rating -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Skills Basic/Month -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
 
                     <td>
-                        <!--Skills/20th Percentile -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Skills Basic/Year -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/80th Percentile -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Skills Basic/Note -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Assessments Taken -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Skills Basic/Start Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Content Type -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Skill -->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Skills/Content ID -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!-- Skills Basic/Avg. View Time/User -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Content Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Skills/Content Duration -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <!-- Skills/Channels -->
-                    <td>
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Total Licenses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/Objective -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Total Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/Owner -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Completion Percentage -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/Duration (hours) -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Last View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Channel Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Content Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Permission -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Link -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Link URL -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <!-- Skills Basic/Channels -->
+                    <td>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Basic/Objective -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Basic/Owner -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Basic/Members -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Basic/Avg Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Basic/Duration (hours) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Skills/Duration (sec) -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/Members -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Content Type -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/Avg Completion -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Content Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/ Roles -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Content Duration -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/Created by -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Skills Basic/Content ID -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/Active users (Started Roles) -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!-- Skills Basic/ Roles -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Channels/Assigned users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!-- Skills Basic/Created by -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Skills/Role IQs acheieved-->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!-- Skills Basic/Active users (Started Roles) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Basic/Assigned users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Basic/Role IQs acheieved-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Content Interations -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Engaged Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Users Assessed -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Assessments Taken -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/20th Percentile -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/80th Percentile -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Avg Skill IQ -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Skill Level -->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Assessment Run # -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Assessment Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                <tr>
+                    <td id="ColEven">
+                        <p>Skills: Advanced</p>
+                    </td>
+                    <td id="ColEven">
+                        <p>Web</p>
+                        <p>CSV Topics</p>
+                        <p>CSV Skill Levels</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Account Name -->
+                        <p>✓</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/First Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Last Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Email -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Last Activity -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Team Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Total Hours -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Unique Courses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Unique Users -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Subjects -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/View Time -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Month -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Year -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Note -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Start Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Skill -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Avg. View Time/User -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Total Licenses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Total Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Completion Percentage -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Last View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Channel Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Content Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Permission -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Link -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Link URL -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <!-- Skills Advanced/Channels -->
+                    <td>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Objective -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Owner -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Members -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Avg Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Duration (hours) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Duration (sec) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Content Type -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Content Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Content Duration -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Content ID -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/ Roles -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Created by -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Active users (Started Roles) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Assigned users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Skills Advanced/Role IQs acheieved-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Content Interations -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Engaged Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Users Assessed -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Assessments Taken -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+
+                    </td>
+                    <td>
+                        <!--Skills Advanced/20th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/80th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Avg Skill IQ -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Skill Level -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Basic/Assessment Run # -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Assessment Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Skills Advanced/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                 </tr>
 
                 <tr>
-                    <td id="ColEven">
+                    <td id="ColOdd">
                         <p>Subjects</p>
                     </td>
-                    <td id="ColEven">
+                    <td id="ColOdd">
                         <p>Web</p>
                         <p>CSV</p>
                     </td>
                     <td>
-                        <!-- Subjects/Account Type -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!-- Subjects/Account Name -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Subjects/First Name -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Last Name -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Email -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Last Activity -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Team Name -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Total Hours -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Unique Courses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Unique Users -->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Subjects -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Subjects/View Time -->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Month -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Year -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Note -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Start Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Subjects/Skill -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Subjects/Avg. View Time/User -->
                         <p>✓</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Completion Percentage -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!--Subjects/Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Email -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Subjects/First Name -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Is On Account-->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Last Activity -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Last Name -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Last View Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Month -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Note -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!--Subjects/Total Licenses -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Start Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Subjects -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Team Name -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Total Hours -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!--Subjects/Total Users -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Subjects/Unique Courses -->
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Unique Users -->
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
+                        <!--Subjects/Completion Percentage -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!--Subjects/View Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Subjects/View Time -->
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
+                        <!--Subjects/Last View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Subjects/Year -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Subjects/Channel Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Subjects/Skill -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Subjects/Content Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Subjects/Avg Skill IQ/Rating -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-
-                    <td>
-                        <!--Subjects/20th Percentile -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Subjects/Permission -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Subjects/80th Percentile -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Subjects/Link -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Subjects/Assessments Taken -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Subjects/Link URL -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <!-- Subjects/Channels -->
+                    <td>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Subjects/Objective -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Subjects/Owner -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Subjects/Members -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Subjects/Avg Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Subjects/Duration (hours) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Channels/Duration (sec) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!--Subjects/Content Type -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Subjects/Content ID -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!--Subjects/Content Name -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!--Subjects/Content Duration -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                <tr>
-                    <td id="ColOdd">
-                        <p>Usage</p>
-                    </td>
-                    <td id="ColOdd">
-                        <p>Web</p>
-                        <p>CSV</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Usage/Account Type -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Subjects/Content ID -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!-- Usage/Avg. View Time/User -->
-                        <p id="check">✓</p>
-                        <p id="blueX">x</p>
+                        <!-- Subjects/ Roles -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Completion Percentage -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!-- Subjects/Created by -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Date -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!-- Subjects/Active users (Started Roles) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Email -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!-- Subjects/Assigned users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/First Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!-- Subjects/Role IQs acheieved-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Is On Account-->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Subjects/Content Interations -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Last Activity -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Subjects/Engaged Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Last Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Subjects/Users Assessed -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Last View Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Subjects/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Month -->
-                        <p id="blueX">x</p>
-                        <p id="check">✓</p>
+                        <!--Subjects/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Note -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Subjects/Assessments Taken -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Total Licenses -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Subjects/20th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Start Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Subjects/80th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Subjects -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Subjects/Avg Skill IQ -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Team Name -->
-                        <p id="blueX">x</p>
-                        <p id="check">✓</p>
+                        <!--Subjects/Skill Level -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Total Hours -->
-                        <p id="blueX">x</p>
-                        <p id="check">✓</p>
+                        <!--Subjects/Assessment Run # -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Total Users -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Subjects/Assessment Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Unique Courses -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Subjects/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Usage/Unique Users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/View Date -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/View Time -->
-                        <p id="check">✓</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/Year -->
-                        <p id="blueX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Usage/Skill -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/Skill Level -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/Avg Skill IQ/Rating -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-
-                    <td>
-                        <!--Usage/20th Percentile -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/80th Percentile -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/Assessments Taken -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/Content Type -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/Content ID -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/Content Name -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!--Usage/Content Duration -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <!-- Usage/Channels -->
-                    <td>
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Objective -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Owner -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Duration (hours) -->
-                        <p id="check">✓</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Duration (sec) -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Members -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Avg Completion -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/ Roles -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Created by -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Active users (Started Roles) -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Assigned users -->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
-                    </td>
-                    <td>
-                        <!-- Usage/Role IQs acheieved-->
-                        <p id="blueX">x</p>
-                        <p id="blueX">x</p>
+                        <!--Subjects/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                 </tr>
 
                 <tr>
                     <td id="ColEven">
-                        <p>Users</p>
+                        <p>Usage</p>
                     </td>
                     <td id="ColEven">
                         <p>Web</p>
                         <p>CSV</p>
                     </td>
                     <td>
-                        <!-- Users/ Account Type -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!-- Usage/Account Name -->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!-- Users/Avg. View Time/User -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Usage/First Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Users/Completion Percentage -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Usage/Last Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Users/Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Usage/Email -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Users/Email -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <!--Usage/Last Activity -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Team Name -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Usage/Total Hours -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Usage/Unique Courses -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Usage/Unique Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Subjects -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/View Time -->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Month -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                    <td>
+                        <!--Usage/Year -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <!--Usage/Note -->
+                    <p>&nbsp;</p>
+                    <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Start Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Skill -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Avg. View Time/User -->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Date -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Usage/Total Licenses -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Usage/Total Users -->
+                        <p>✓</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Usage/Completion Percentage -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/View Date -->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Last View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Channel Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Content Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Permission -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Link -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Link URL -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <!-- Usage/Channels -->
+                    <td>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Objective -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Owner -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Members -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Avg Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Duration (hours) -->
+                        <p>✓</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Duration (sec) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Content Type -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Content Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Content Duration -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Content ID -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/ Roles -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Created by -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Active users (Started Roles) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Assigned users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Usage/Role IQs acheieved-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Content Interations -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Engaged Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Users Assessed -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Assessments Taken -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/20th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/80th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Avg Skill IQ -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Skill Level -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Assessment Run # -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Assessment Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Usage/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td id="ColOdd">
+                        <p>Users</p>
+                    </td>
+                    <td id="ColOdd">
+                        <p>Web</p>
+                        <p>CSV</p>
+                    </td>
+                    <td>
+                        <!-- Users/Account Name -->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
                         <!--Users/First Name -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Is On Account-->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Users/Last Activity -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
                         <!--Users/Last Name -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Users/Last View Date -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Users/Email -->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Users/Month -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Users/Note -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Users/Total Licenses -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Users/Start Date -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Users/Subjects -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Users/Last Activity -->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
                         <!--Users/Team Name -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
                         <!--Users/Total Hours -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Users/Total Users -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
                     <td>
                         <!--Users/Unique Courses -->
-                        <p id="check">✓</p>
-                        <p id="check">✓</p>
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
                         <!--Users/Unique Users -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Users/View Date -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
+                        <!--Users/Subjects -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!--Users/View Time -->
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Users/Year -->
-                        <p id="whiteX">x</p>
-                        <p id="check">✓</p>
-                    </td>
-                    <td>
-                        <!--Users/Skill -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Users/Skill Level-->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!--Users/Avg Skill IQ/Rating -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Users/Month -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
 
                     <td>
-                        <!--Users/20th Percentile -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Users/Year -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Users/80th Percentile -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Users/Note -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Users/Assessments Taken -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Users/Start Date -->
+                        <p>✓</p>
+                        <p>✓</p>
                     </td>
                     <td>
-                        <!--Users/Content Type -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Users/Skill -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Users/Content ID -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!-- Users/Avg. View Time/User -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Users/Content Name -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Users/Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
-                        <!--Users/Content Duration -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!--Users/Total Licenses -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Total Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Completion Percentage -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/View Date -->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
+                    </td>
+                    <td>
+                        <!--Users/Last View Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Channel Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Content Completion -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Permission -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Link -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Link URL -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <!-- Users/Channels -->
                     <td>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
-                    <!-- Users/Objective -->
                     <td>
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <!-- Users/Objective -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Users/Owner -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!-- Users/Duration (hours) -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
-                    </td>
-                    <td>
-                        <!-- Users/Duration (sec) -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Users/Members -->
-                        <p id="check">✓</p>
-                        <p id="whiteX">x</p>
+                        <p>✓</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Users/Avg Completion -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Users/Duration (hours) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!-- Users/Duration (sec) -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Content Type -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Content Name -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Content Duration -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Content ID -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Users/ Roles -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Users/Created by -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Users/Active users (Started Roles) -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Users/Assigned users -->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
                     </td>
                     <td>
                         <!-- Users/Role IQs acheieved-->
-                        <p id="whiteX">x</p>
-                        <p id="whiteX">x</p>
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Content Interations -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Engaged Users -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Users Assessed -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Engaged Users Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Engaged Users Not Assessed-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Assessments Taken -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/20th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/80th Percentile -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Avg Skill IQ -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Skill Level -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Assessment Run # -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Assessment Date -->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Questions Answered-->
+                        <p>&nbsp;</p>
+                        <p>&nbsp;</p>
+                    </td>
+                    <td>
+                        <!--Users/Is On Account-->
+                        <p>&nbsp;</p>
+                        <p>✓</p>
                     </td>
                 </tr>
 
